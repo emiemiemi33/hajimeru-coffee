@@ -2571,3 +2571,366 @@ body {
 .home-news {
     margin-top: -30px;
 }
+
+/* ========================================
+   Beginner Page
+======================================== */
+
+/* Page Hero */
+
+.beginner-hero {
+    min-height: 500px;
+    background-color: #faf7f2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.beginner-hero-inner {
+    padding: 70px 20px 50px;
+}
+
+.beginner-hero-en {
+    margin-bottom: 20px;
+
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.beginner-hero-title {
+    margin-bottom: 55px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.beginner-hero-message {
+    font-family: "Noto Serif JP", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+}
+
+.beginner-hero-scroll {
+    margin-top: 55px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+
+    font-size: 10px;
+    letter-spacing: 0.15em;
+}
+
+.beginner-hero-arrow {
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* About */
+
+.beginner-about {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.beginner-about-inner {
+    width: min(1200px, calc(100% - 80px));
+    margin: 0 auto;
+}
+
+.beginner-about-heading {
+    margin-bottom: 35px;
+}
+
+.beginner-section-en {
+    margin-bottom: 8px;
+
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+}
+
+.beginner-section-title {
+    font-family: "Noto Serif JP", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.beginner-about-content {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.beginner-about-image {
+    width: 58%;
+}
+
+.beginner-about-image img {
+    width: 100%;
+    display: block;
+}
+
+.beginner-about-text {
+    width: 42%;
+    padding-top: 30px;
+}
+
+.beginner-about-text h3 {
+    margin-bottom: 35px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.beginner-about-text p {
+    margin-bottom: 24px;
+
+    font-size: 15px;
+    line-height: 2;
+}
+
+.beginner-about-text p:last-child {
+    margin-bottom: 0;
+}
+
+/* Beginner's Questions */
+
+.beginner-questions {
+    padding: 100px 0;
+    background-color: #f7f1e8;
+}
+
+.beginner-questions-inner {
+    width: min(960px, calc(100% - 80px));
+    margin: 0 auto;
+}
+
+.beginner-questions-heading {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.beginner-questions-title {
+    margin-top: 12px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.beginner-questions-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 55px;
+}
+
+.beginner-question-number {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    margin-bottom: 18px;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.beginner-question-number::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #b8aa99;
+}
+
+.beginner-question-item p {
+    font-family: "Noto Serif JP", serif;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.beginner-questions-message {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.beginner-questions-message-main {
+    margin-bottom: 18px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.beginner-questions-message-sub {
+    font-family: "Noto Serif JP", serif;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+/* Start Your Coffee */
+
+.beginner-start {
+    padding: 110px 0;
+    background-color: #fff;
+}
+
+.beginner-start-inner {
+    width: min(1200px, calc(100% - 80px));
+    margin: 0 auto;
+}
+
+.beginner-start-heading {
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.beginner-start-title {
+    margin-top: 12px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.beginner-start-lead {
+    margin-top: 18px;
+
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.beginner-start-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.beginner-start-image {
+    margin-bottom: 22px;
+    overflow: hidden;
+    border-radius: 6px;
+    aspect-ratio: 4 / 3;
+}
+
+.beginner-start-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.beginner-start-number {
+    margin-bottom: 12px;
+
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.beginner-start-item h3 {
+    margin-bottom: 16px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.beginner-start-description {
+    margin-bottom: 22px;
+
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.beginner-start-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+
+    color: #5b4431;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    border-bottom: 1px solid #5b4431;
+    padding-bottom: 4px;
+}
+
+.beginner-start-link span {
+    transition: transform 0.3s ease;
+}
+
+.beginner-start-link:hover span {
+    transform: translateX(5px);
+}
+
+
+/* Together */
+
+.beginner-together {
+    padding: 110px 0;
+    background-color: #f8f3eb;
+}
+
+.beginner-together-inner {
+    width: min(1200px, calc(100% - 80px));
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.beginner-together-text {
+    width: 42%;
+}
+
+.beginner-together-title {
+    margin-top: 14px;
+    margin-bottom: 38px;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+}
+
+.beginner-together-text > p:not(.beginner-section-en) {
+    margin-bottom: 22px;
+
+    font-size: 14px;
+    line-height: 2;
+}
+
+.beginner-together-text .beginner-together-last {
+    margin-top: 35px;
+    margin-bottom: 0;
+
+    font-family: "Noto Serif JP", serif;
+    font-weight: 600;
+}
+
+.beginner-together-image {
+    width: 58%;
+    padding-top: 45px;
+}
+
+.beginner-together-image img {
+    width: 100%;
+    display: block;
+}
